@@ -12,3 +12,29 @@ the smiles of each statin, the smiles are converted to RDKit molecules as they w
 The Tanimoto score is calculated after the fingerprints are obtained.  The Tanimoto score is a measure of similarity
 between two fingerprints. It is calculated as the ratio of the number of features that are common to the two fingerprints
 to the total number of features in the two fingerprints.
+
+### Dataset
+The technical information about the statins was imported from pubchempy. The statins that are utilized are Simvastatin,
+Pravastatin, Atorvastatin,and Fluvastatin.
+
+## Requirements
+- **Libraries**
+  - **PCP**
+  - **RdKit**
+
+## Results
+The similarity shown below is the one that was the greatest than the other similarity values hence a greater Tanimato
+Similarity shows a higher similarity.
+
+1. Simvastatin
+Simvastatin and Pravastatin shows a greater degree of similarity with a tanimoto score of 0.872 which is higher tanimoto similarity than other statins.
+
+2. Pravastatin
+As mentioned previously, Pravastatin and Simvastatin shows a higher similarity with a tanimoto score 0.872.
+
+3. Atorvastatin
+Atorvastatin and Fluvastatin have a greater similarity with a tanimoto score of is 0.522.
+
+4. Fluvastatin
+As mentioned previously, Fluvastatin and Atorvastatin have a higher similarity in comparison to other statins with a tanimoto score of 0.522.
+
