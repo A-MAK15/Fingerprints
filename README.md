@@ -38,3 +38,6 @@ Atorvastatin and Fluvastatin have a greater similarity with a tanimoto score of 
 4. Fluvastatin
 As mentioned previously, Fluvastatin and Atorvastatin have a higher similarity in comparison to other statins with a tanimoto score of 0.522.
 
+## Future Work
+- It would have been better if I displayed the closest match of each statin in a calculated way but I just did it manually as I do see the values.
+- Integrate this logic with a web application for better interactivity. 
